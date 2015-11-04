@@ -21,10 +21,31 @@ Radius, home latitude and home longitude are optional command line arguments. Th
 ruby get_guests.rb customers.txt 100 53.3381985 -6.2592576
 ```
 
+#### Sample Output:
+
+```
+Guest list
+==========
+"4 -- Ian Kehoe"
+"5 -- Nora Dempsey"
+"6 -- Theresa Enright"
+"8 -- Eoin Ahearn"
+"11 -- Richard Finnegan"
+"12 -- Christina McArdle"
+"13 -- Olive Ahearn"
+"15 -- Michael Ahearn"
+"17 -- Patricia Cahill"
+"23 -- Eoin Gallagher"
+"24 -- Rose Enright"
+"26 -- Stephen McArdle"
+"29 -- Oliver Ahearn"
+"30 -- Nick Enright"
+"31 -- Alan Behan"
+"39 -- Lisa Ahearn"
+```
+
 #### Design:
 
 Distance has been calculated using the law of cosines.
 
 Data file is parsed and records are loaded into a Hash. This will be replaced by a Database for production scale.
-
-
